@@ -118,7 +118,7 @@ message TaskParameter {
   // OPTIONAL
   //
   // Size of the file in bytes.
-  int64 size_bytes = 7;
+  uint64 size_bytes = 7;
 
   // OPTIONAL
   //
