@@ -114,6 +114,16 @@ message TaskParameter {
   //
   // If contents is not empty, "url" must be ignored.
   string contents = 6;
+
+  // OPTIONAL
+  //
+  // Size of the file in bytes.
+  int64 size_bytes = 7;
+
+  // OPTIONAL
+  //
+  // SHA-256 hash of the file
+  string sha256 = 8;
 }
 
 // Ports describes the port binding between the container and host.
